@@ -72,10 +72,13 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.lbxStoryStly = new System.Windows.Forms.ListBox();
             this.tbpFAQStly = new System.Windows.Forms.TabPage();
+<<<<<<< HEAD
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.locationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fAQToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> master
             this.menuStrip1.SuspendLayout();
             this.tbcMainStly.SuspendLayout();
             this.tbpGameStly.SuspendLayout();
@@ -150,44 +153,74 @@
             // panel5
             // 
             this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
+<<<<<<< HEAD
             this.panel5.Location = new System.Drawing.Point(1071, 282);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(120, 115);
+=======
+            this.panel5.Location = new System.Drawing.Point(714, 183);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(80, 75);
+>>>>>>> master
             this.panel5.TabIndex = 18;
             // 
             // panel4
             // 
+<<<<<<< HEAD
             this.panel4.Location = new System.Drawing.Point(555, 282);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(120, 115);
+=======
+            this.panel4.Location = new System.Drawing.Point(370, 183);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(80, 75);
+>>>>>>> master
             this.panel4.TabIndex = 18;
             // 
             // panel3
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+<<<<<<< HEAD
             this.panel3.Location = new System.Drawing.Point(942, 282);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(120, 115);
+=======
+            this.panel3.Location = new System.Drawing.Point(628, 183);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(80, 75);
+>>>>>>> master
             this.panel3.TabIndex = 18;
             // 
             // panel2
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+<<<<<<< HEAD
             this.panel2.Location = new System.Drawing.Point(813, 282);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(120, 115);
+=======
+            this.panel2.Location = new System.Drawing.Point(542, 183);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(80, 75);
+>>>>>>> master
             this.panel2.TabIndex = 18;
             // 
             // panel1
             // 
+<<<<<<< HEAD
             this.panel1.Location = new System.Drawing.Point(684, 282);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(120, 115);
+=======
+            this.panel1.Location = new System.Drawing.Point(456, 183);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(80, 75);
+>>>>>>> master
             this.panel1.TabIndex = 17;
             // 
             // btnCraftStly
@@ -259,6 +292,7 @@
             this.btnGetWaterStly.TabIndex = 9;
             this.btnGetWaterStly.Text = "Collect Water";
             this.btnGetWaterStly.UseVisualStyleBackColor = true;
+            this.btnGetWaterStly.Click += new System.EventHandler(this.btnGetWaterStly_Click);
             // 
             // btnDrinkStly
             // 
@@ -269,6 +303,7 @@
             this.btnDrinkStly.TabIndex = 8;
             this.btnDrinkStly.Text = "Drink";
             this.btnDrinkStly.UseVisualStyleBackColor = true;
+            this.btnDrinkStly.Click += new System.EventHandler(this.btnDrinkStly_Click);
             // 
             // btnEatStly
             // 
@@ -352,6 +387,7 @@
             this.groupBox1.Text = "Inventaris";
             // 
             // label7
+<<<<<<< HEAD
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(711, 131);
@@ -462,9 +498,77 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(108, 97);
             this.panel11.TabIndex = 24;
+=======
             // 
-            // lblBerryStly
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(474, 85);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(16, 13);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "---";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(396, 85);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(16, 13);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "---";
+            // 
+            // panel16
+            // 
+            this.panel16.Location = new System.Drawing.Point(474, 19);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(72, 63);
+            this.panel16.TabIndex = 26;
+            // 
+            // lblFiberStly
+            // 
+            this.lblFiberStly.AutoSize = true;
+            this.lblFiberStly.Location = new System.Drawing.Point(318, 85);
+            this.lblFiberStly.Name = "lblFiberStly";
+            this.lblFiberStly.Size = new System.Drawing.Size(16, 13);
+            this.lblFiberStly.TabIndex = 27;
+            this.lblFiberStly.Text = "---";
+            // 
+            // panel15
+            // 
+            this.panel15.Location = new System.Drawing.Point(396, 19);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(72, 63);
+            this.panel15.TabIndex = 26;
+            // 
+            // lblWaterStly
+            // 
+            this.lblWaterStly.AutoSize = true;
+            this.lblWaterStly.Location = new System.Drawing.Point(240, 85);
+            this.lblWaterStly.Name = "lblWaterStly";
+            this.lblWaterStly.Size = new System.Drawing.Size(16, 13);
+            this.lblWaterStly.TabIndex = 27;
+            this.lblWaterStly.Text = "---";
+            // 
+            // panel14
+            // 
+            this.panel14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel14.BackgroundImage")));
+            this.panel14.Location = new System.Drawing.Point(318, 19);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(72, 63);
+            this.panel14.TabIndex = 26;
+            // 
+            // lblWoodStly
+            // 
+            this.lblWoodStly.AutoSize = true;
+            this.lblWoodStly.Location = new System.Drawing.Point(162, 85);
+            this.lblWoodStly.Name = "lblWoodStly";
+            this.lblWoodStly.Size = new System.Drawing.Size(16, 13);
+            this.lblWoodStly.TabIndex = 27;
+            this.lblWoodStly.Text = "---";
+>>>>>>> master
+            // 
+            // panel13
+            // 
+<<<<<<< HEAD
             this.lblBerryStly.AutoSize = true;
             this.lblBerryStly.Location = new System.Drawing.Point(9, 131);
             this.lblBerryStly.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -491,6 +595,24 @@
             this.panel8.TabIndex = 22;
             // 
             // panel7
+=======
+            this.panel13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel13.BackgroundImage")));
+            this.panel13.Location = new System.Drawing.Point(240, 19);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(72, 63);
+            this.panel13.TabIndex = 26;
+            // 
+            // lblMeatStly
+            // 
+            this.lblMeatStly.AutoSize = true;
+            this.lblMeatStly.Location = new System.Drawing.Point(84, 85);
+            this.lblMeatStly.Name = "lblMeatStly";
+            this.lblMeatStly.Size = new System.Drawing.Size(16, 13);
+            this.lblMeatStly.TabIndex = 25;
+            this.lblMeatStly.Text = "---";
+            // 
+            // panel12
+>>>>>>> master
             // 
             this.panel7.Location = new System.Drawing.Point(1107, 105);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -498,6 +620,7 @@
             this.panel7.Size = new System.Drawing.Size(74, 68);
             this.panel7.TabIndex = 20;
             // 
+<<<<<<< HEAD
             // panel9
             // 
             this.panel9.Location = new System.Drawing.Point(1024, 29);
@@ -560,6 +683,78 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(51, 29);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+=======
+            // panel11
+            // 
+            this.panel11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel11.BackgroundImage")));
+            this.panel11.Location = new System.Drawing.Point(84, 19);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(72, 63);
+            this.panel11.TabIndex = 24;
+            // 
+            // lblBerryStly
+            // 
+            this.lblBerryStly.AutoSize = true;
+            this.lblBerryStly.Location = new System.Drawing.Point(6, 85);
+            this.lblBerryStly.Name = "lblBerryStly";
+            this.lblBerryStly.Size = new System.Drawing.Size(16, 13);
+            this.lblBerryStly.TabIndex = 23;
+            this.lblBerryStly.Text = "---";
+            // 
+            // panel10
+            // 
+            this.panel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel10.BackgroundImage")));
+            this.panel10.Location = new System.Drawing.Point(6, 19);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(72, 63);
+            this.panel10.TabIndex = 19;
+            // 
+            // panel8
+            // 
+            this.panel8.Location = new System.Drawing.Point(683, 68);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(49, 44);
+            this.panel8.TabIndex = 22;
+            // 
+            // panel7
+            // 
+            this.panel7.Location = new System.Drawing.Point(738, 68);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(49, 44);
+            this.panel7.TabIndex = 20;
+            // 
+            // panel9
+            // 
+            this.panel9.Location = new System.Drawing.Point(683, 19);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(49, 44);
+            this.panel9.TabIndex = 21;
+            // 
+            // panel6
+            // 
+            this.panel6.Location = new System.Drawing.Point(738, 19);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(49, 44);
+            this.panel6.TabIndex = 19;
+            // 
+            // lbxStoryStly
+            // 
+            this.lbxStoryStly.FormattingEnabled = true;
+            this.lbxStoryStly.Location = new System.Drawing.Point(7, 7);
+            this.lbxStoryStly.Name = "lbxStoryStly";
+            this.lbxStoryStly.Size = new System.Drawing.Size(273, 251);
+            this.lbxStoryStly.TabIndex = 0;
+            // 
+            // tbpFAQStly
+            // 
+            this.tbpFAQStly.Location = new System.Drawing.Point(4, 22);
+            this.tbpFAQStly.Name = "tbpFAQStly";
+            this.tbpFAQStly.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpFAQStly.Size = new System.Drawing.Size(806, 384);
+            this.tbpFAQStly.TabIndex = 1;
+            this.tbpFAQStly.Text = "tabPage2";
+            this.tbpFAQStly.UseVisualStyleBackColor = true;
+>>>>>>> master
             // 
             // Form1
             // 
