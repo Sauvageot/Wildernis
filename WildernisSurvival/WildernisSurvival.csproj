@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class.cs" />
+    <Compile Include="csClassSound.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
